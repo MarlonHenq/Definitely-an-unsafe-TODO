@@ -46,14 +46,19 @@
                 <div class="col-md-4">
                     <label for="taskShare" class="form-label">Compartilhar com a equipe?</label>
                     <select id="taskShare" class="form-select" required>
-                        <option value="true">Sim</option>
                         <option value="false">Não</option>
+                        <option value="true">Sim</option>
                     </select>
                 </div>
                 <div class="col-12">
                     <label for="taskDescription" class="form-label">Descrição</label>
                     <textarea id="taskDescription" class="form-control" rows="2" required></textarea>
                 </div>
+                <div class="col-12">
+                    <label for="taskLink" class="form-label">Link relacionado (opcional)</label>
+                    <input type="url" id="taskLink" class="form-control" placeholder="https://exemplo.com">
+                </div>
+
             </div>
             <div class="mt-3 text-end">
                 <button type="submit" class="btn btn-primary">Adicionar Tarefa</button>
