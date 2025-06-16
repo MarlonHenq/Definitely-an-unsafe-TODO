@@ -28,7 +28,7 @@
                 <img src="../static/img/logo.png" alt="Secure TODO Logo" class="img-fluid mb-3" style="max-width: 120px;">
                 <h2 class="fw-bold">Secure TODO Login</h2>
               </div>
-              <form action="login.php" method="post">
+              <form action="index.php" method="post">
                 <div class="mb-3">
                   <label for="username" class="form-label">Username</label>
                   <input
